@@ -1,44 +1,46 @@
-First public beta of **GETSU RAIDER**, a PS5 homebrew tile (**PPSA99606**)
-that runs **Shadow of the Tomb Raider** with a bundled Wine runtime. No separate
-Prospero Win install is needed.
+Premier beta public de **GETSU RAIDER**, une tuile PS5 homebrew (**PPSA99606**)
+qui lance **Shadow of the Tomb Raider** avec un runtime Wine bundlé. Pas besoin
+d'installer Prospero Win séparément.
 
-## What you need
+## Ce qu'il te faut
 
-- A jailbroken PS5 that can install homebrew.
-- **Your own copy of Shadow of the Tomb Raider.** The normal, unmodified GOG
-  install folder is all you need. The game auto-detects that Steam is not
-  running and plays in single-player.
+- Une PS5 jailbreakée capable d'installer du homebrew.
+- **Ta propre copie de Shadow of the Tomb Raider.** Le dossier d'installation
+  GOG normal, sans modifications, c'est tout. Le jeu détecte automatiquement
+  que Steam n'est pas actif et joue en solo.
 
-## Install
+## Installation
 
-1. Unzip `GETSU-RAIDER-PPSA99606.zip` and copy `PPSA99606/` to
-   `/data/homebrew/PPSA99606/`, then install the tile.
-2. Launch **GETSU RAIDER** once: it creates `/data/getsu-raider/`.
-3. Copy your game folder into `/data/getsu-raider/dropzone/ShadowOfTheTombRaider/`.
-4. Open GETSU RAIDER: **✕** to install, then **✕** to play.
+1. Dézippes `GETSU-RAIDER-PPSA99606.zip` et copies `PPSA99606/` à
+   `/data/homebrew/PPSA99606/`, puis installe la tuile.
+2. Lance **GETSU RAIDER** une fois : crée `/data/getsu-raider/`.
+3. Copies ton dossier de jeu dans `/data/getsu-raider/dropzone/ShadowOfTheTombRaider/`.
+4. Ouvre GETSU RAIDER : **✕** pour installer, puis **✕** pour jouer.
 
-The README has the details, including save paths and the controls.
+Voir le README pour les détails complets, les chemins de sauvegarde et les contrôles.
 
-## Graphics settings
+## Configuration graphique
 
-The game runs at **2560 × 1440** in **Direct3D 12** (vkd3d-proton), with
-**ray tracing off**. On install, GETSU RAIDER sets cautious graphics options
-(medium textures, lower quality filters) that were tested and stable. **The game
-has been tested running at very high quality settings in 2K** — textures, shadows,
-LOD, ambient occlusion maxed out — and runs smoothly for extended play sessions.
+Le jeu tourne à **2560 × 1440** en **Direct3D 12** (vkd3d-proton), avec
+**ray tracing désactivé**. À l'installation, GETSU RAIDER configure les réglages
+graphiques de façon prudente (textures medium, filtres plus bas) qui ont été
+testés et stables. **Le jeu a été testé en tournant à très haute qualité en 2K** — 
+textures, ombres, LOD, occlusion ambiante maxés — **et fonctionne bien pour des
+sessions de jeu prolongées**.
 
-You can change any setting in the game's options menu; GETSU never overwrites your own choices.
+Tu peux changer n'importe quel réglage dans le menu options du jeu ; GETSU
+n'écrase jamais tes choix.
 
-The first load after install may take several minutes.
+Le premier chargement après installation peut prendre plusieurs minutes.
 
-## Files
+## Fichiers
 
-| File | What it is |
-|------|------------|
-| `GETSU-RAIDER-PPSA99606.zip` | The app folder for the console |
-| `GETSU-RAIDER-PPSA99606-source.zip` | The complete corresponding source |
-| `SHA256SUMS` | Checksums of both archives |
+| Fichier | Contenu |
+|---------|---------|
+| `GETSU-RAIDER-PPSA99606.zip` | Dossier app pour la console |
+| `GETSU-RAIDER-PPSA99606-source.zip` | Source complète correspondant |
+| `SHA256SUMS` | Checksums des archives |
 
-GETSU RAIDER ships no game data. It is a fan homebrew, not affiliated with
-Crystal Dynamics, Eidos-Montréal, Square Enix, Embracer Group or Sony. Free
-software: see `THIRD_PARTY.md` and `LICENSE`.
+GETSU RAIDER ne contient aucune donnée de jeu. C'est un fan homebrew, non
+affilié à Crystal Dynamics, Eidos-Montréal, Square Enix, Embracer Group ou Sony.
+Logiciel libre : voir `THIRD_PARTY.md` et `LICENSE`.
