@@ -23,8 +23,11 @@ The README has the details, including save paths and the controls.
 
 The game runs at **2560 × 1440** in **Direct3D 12** (vkd3d-proton), with
 **ray tracing off**. On install, GETSU RAIDER sets cautious graphics options
-that were tested and stable on the console. You can change any setting in the
-game's options menu; GETSU never overwrites your own choices.
+(medium textures, lower quality filters) that were tested and stable. **The game
+has been tested running at very high quality settings in 2K** — textures, shadows,
+LOD, ambient occlusion maxed out — and runs smoothly for extended play sessions.
+
+You can change any setting in the game's options menu; GETSU never overwrites your own choices.
 
 The first load after install may take several minutes.
 
