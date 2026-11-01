@@ -1,0 +1,19 @@
+{
+  "build_id": "de177755ea26e6b85d53ff1ba74217a7fc30828ecd392ba0cf840dd4ab76f4d1",
+  "console_validated": false,
+  "elf_sha256": "78d0bcbda0ef5f59af90fb432d4d23c07622e1a8e73aa99f524da698d971b543",
+  "features": [
+    "root_layout_probe_retry"
+  ],
+  "firmware": "SDK-supported, runtime layout check required",
+  "max_requests": 1,
+  "mode": "elf-helper",
+  "protocol_sha256": "bb02c4aa814eaba7a7a423a31b29ff41f786212c2953678cf29434e85fa0f869",
+  "require_client_result": false,
+  "schema": "lapy-owned-build/1",
+  "service": false,
+  "target_title": "PPSA99606",
+  "validated_firmware": [
+    "12.02"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "title_id": "PPSA99606",
+  "content_id": "UP9000-PPSA99606_00-GETSURAIDER00001",
+  "status": "local-build-verified-console-test-pending",
+  "console_accessed": false,
+  "console_validated": false,
+  "published": false,
+  "helper_source_commit": "b48b7d7236eca25c7b9dfd6c040c763ae05dde80",
+  "foundation_source_commit": "9c0b994a048521af6fb84c73ded364504fe250e9",
+  "compiler": "Clang 18 selected explicitly; g++ host tools",
+  "helper_manifest": {
+    "build_id": "de177755ea26e6b85d53ff1ba74217a7fc30828ecd392ba0cf840dd4ab76f4d1",
+    "console_validated": false,
+    "elf_sha256": "78d0bcbda0ef5f59af90fb432d4d23c07622e1a8e73aa99f524da698d971b543",
+    "features": [
+      "root_layout_probe_retry"
+    ],
+    "firmware": "SDK-supported, runtime layout check required",
+    "max_requests": 1,
+    "mode": "elf-helper",
+    "protocol_sha256": "bb02c4aa814eaba7a7a423a31b29ff41f786212c2953678cf29434e85fa0f869",
+    "require_client_result": false,
+    "schema": "lapy-owned-build/1",
+    "service": false,
+    "target_title": "PPSA99606",
+    "validated_firmware": [
+      "12.02"
+    ]
+  },
+  "files": {
+    "eboot.bin": "b81cf47fb3be96753dbbc3285c568768bd97f3dffb205b992cbc2f8844559828",
+    "lapy.elf": "78d0bcbda0ef5f59af90fb432d4d23c07622e1a8e73aa99f524da698d971b543",
+    "sce_module/libc.prx": "e6ff45d16adf687855cc3b33b0c8a4132b6504360b221e0a34c7e99fb3ba0036",
+    "sce_sys/param.json": "f7864e75a0437603a13814c82f06b295f6a0df506892c3b55e013c8dbe29d66d",
+    "sce_sys/icon0.png": "64ddcafce3c8455cb84f2436aa43454af2d829c541ef7059997607d2ab344e0c"
+  },
+  "checks": [
+    "helper SHA-256/title/protocol/retry feature validated",
+    "helper nonresident and one request",
+    "libc.prx identical to pre-existing copy",
+    "5 Python helper tests passed",
+    "RAIDER title template identity passed",
+    "C helper handshake test passed with mocked transport",
+    "C data-mount test passed",
+    "native dynamic imports recorded; strcasestr absent"
+  ],
+  "remaining": [
+    "PS5 test requires separate authorization",
+    "public release source/license and privacy review",
+    "inherited Wine seed contains personal compiler paths"
+  ]
+}

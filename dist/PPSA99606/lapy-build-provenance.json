@@ -1,0 +1,9 @@
+{
+  "build_label": "ppsa99606-local",
+  "elf_sha256": "78d0bcbda0ef5f59af90fb432d4d23c07622e1a8e73aa99f524da698d971b543",
+  "published_at": null,
+  "release_url": null,
+  "repository": "mpereiraesaa/PS5-Lapy-JB-Daemon",
+  "source_type": "local-build",
+  "target_title": "PPSA99606"
+}

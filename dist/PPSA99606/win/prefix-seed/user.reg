@@ -1,0 +1,348 @@
+WINE REGISTRY Version 2
+;; All keys relative to REGISTRY\\User\\S-1-5-21-0-0-0-1000
+
+#arch=win64
+
+[Control Panel\\Accessibility\\AudioDescription] 1792848112
+#time=1dd63baa226cfec
+"Locale"=dword:00000000
+"On"="0"
+
+[Control Panel\\Accessibility\\Blind Access] 1792848112
+#time=1dd63baa226ccae
+"On"="0"
+
+[Control Panel\\Accessibility\\Keyboard Preference] 1792848112
+#time=1dd63baa226c812
+"On"="1"
+
+[Control Panel\\Accessibility\\ShowSounds] 1792848112
+#time=1dd63baa226cd9e
+"On"="0"
+
+[Control Panel\\Colors] 1792848113
+#time=1dd63baa2d2f420
+"ActiveBorder"="255 255 255"
+"ActiveTitle"="50 150 250"
+"AppWorkSpace"="128 128 128"
+"Background"="37 111 149"
+"ButtonAlternateFace"="255 255 255"
+"ButtonDkShadow"="106 106 106"
+"ButtonFace"="245 245 245"
+"ButtonHilight"="255 255 255"
+"ButtonLight"="227 227 227"
+"ButtonShadow"="166 166 166"
+"ButtonText"="0 0 0"
+"GradientActiveTitle"="50 150 250"
+"GradientInactiveTitle"="128 128 128"
+"GrayText"="106 106 106"
+"Hilight"="48 150 250"
+"HilightText"="255 255 255"
+"HotTrackingColor"="48 150 250"
+"InactiveBorder"="255 255 255"
+"InactiveTitle"="128 128 128"
+"InactiveTitleText"="200 200 200"
+"InfoText"="0 0 0"
+"InfoWindow"="255 255 255"
+"Menu"="255 255 255"
+"MenuBar"="255 255 255"
+"MenuHilight"="48 150 250"
+"MenuText"="0 0 0"
+"Scrollbar"="255 255 255"
+"TitleText"="0 0 0"
+"Window"="255 255 255"
+"WindowFrame"="158 158 158"
+"WindowText"="0 0 0"
+
+[Control Panel\\Desktop] 1792848113
+#time=1dd63baa2d2fd1c
+"ActiveWndTrackTimeout"=dword:00000000
+"BlockSendInputResets"="0"
+"CaretWidth"=dword:00000001
+"ClickLockTime"=dword:000004b0
+"DoubleClickHeight"="4"
+"DoubleClickWidth"="4"
+"DragFullWindows"="0"
+"DragHeight"="4"
+"DragWidth"="4"
+"FocusBorderHeight"=dword:00000001
+"FocusBorderWidth"=dword:00000001
+"FontSmoothing"="2"
+"FontSmoothingGamma"=dword:00000000
+"FontSmoothingOrientation"=dword:00000001
+"FontSmoothingType"=dword:00000001
+"ForegroundFlashCount"=dword:00000003
+"ForegroundLockTimeout"=dword:00000000
+"IconTitleWrap"="1"
+"LowPowerActive"="0"
+"MenuShowDelay"="400"
+"UserPreferencesMask"=hex:10,00,02,80,12,00,00,00
+"Wallpaper"=""
+"WheelScrollChars"="3"
+"WheelScrollLines"="3"
+
+[Control Panel\\Desktop\\WindowMetrics] 1792848113
+#time=1dd63baa2d2fc36
+"BorderWidth"="1"
+"CaptionFont"=hex:0a,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,\
+  00,00,00,01,00,00,00,00,54,00,61,00,68,00,6f,00,6d,00,61,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"CaptionHeight"="25"
+"CaptionWidth"="18"
+"IconFont"=hex:08,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,00,\
+  00,00,01,00,00,00,00,54,00,61,00,68,00,6f,00,6d,00,61,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"IconSpacing"="-1125"
+"IconTitleWrap"="1"
+"IconVerticalSpacing"="-1125"
+"MenuFont"=hex:08,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,00,\
+  00,00,01,00,00,00,00,54,00,61,00,68,00,6f,00,6d,00,61,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"MenuHeight"="18"
+"MenuWidth"="18"
+"MessageFont"=hex:08,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,\
+  00,00,00,01,00,00,00,00,54,00,61,00,68,00,6f,00,6d,00,61,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"PaddedBorderWidth"="0"
+"ScrollHeight"="17"
+"ScrollWidth"="17"
+"SmCaptionFont"=hex:08,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,\
+  00,00,00,00,01,00,00,00,00,54,00,61,00,68,00,6f,00,6d,00,61,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"SmCaptionHeight"="17"
+"SmCaptionWidth"="17"
+"StatusFont"=hex:08,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,\
+  00,00,00,01,00,00,00,00,54,00,61,00,68,00,6f,00,6d,00,61,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[Control Panel\\International] 1792887733
+#time=1dd6416e1d6b54c
+"iCalendarType"="1"
+"iCountry"="1"
+"iCurrDigits"="2"
+"iCurrency"="0"
+"iDate"="0"
+"iDigits"="2"
+"iFirstDayOfWeek"="6"
+"iFirstWeekOfYear"="0"
+"iLZero"="1"
+"iMeasure"="1"
+"iNegCurr"="0"
+"iNegNumber"="1"
+"iPaperSize"="1"
+"iTime"="0"
+"iTimePrefix"="0"
+"iTLZero"="0"
+"Locale"="00000409"
+"LocaleName"="en-US"
+"NumShape"="1"
+"s1159"="AM"
+"s2359"="PM"
+"sCountry"="United States"
+"sCurrency"="$"
+"sDate"="/"
+"sDecimal"="."
+"sGrouping"="3;0"
+"sLanguage"="ENU"
+"sList"=","
+"sLongDate"="dddd, MMMM d, yyyy"
+"sMonDecimalSep"="."
+"sMonGrouping"="3;0"
+"sMonThousandSep"=","
+"sNativeDigits"="0123456789"
+"sNegativeSign"="-"
+"sPositiveSign"=""
+"sShortDate"="M/d/yyyy"
+"sShortTime"="h:mm tt"
+"sThousand"=","
+"sTime"=":"
+"sTimeFormat"="h:mm:ss tt"
+"sYearMonth"="MMMM yyyy"
+
+[Control Panel\\International\\Geo] 1792887733
+#time=1dd6416e1d6b79a
+"Name"="US"
+"Nation"="244"
+
+[Control Panel\\International\\\xd83c\xdf0e\xd83c\xdf0f\xd83c\xdf0d] 1792887733
+#time=1dd6416e1d6a462
+"Currencies"="USD"
+
+[Control Panel\\Keyboard] 1792848112
+#time=1dd63baa226c862
+"KeyboardDelay"="1"
+"KeyboardSpeed"="31"
+
+[Control Panel\\Mouse] 1792848112
+#time=1dd63baa226ce70
+"ActiveWindowTracking"=dword:00000000
+"DoubleClickHeight"="4"
+"DoubleClickSpeed"="500"
+"DoubleClickWidth"="4"
+"MouseHoverHeight"="4"
+"MouseHoverTime"="400"
+"MouseHoverWidth"="4"
+"MouseSensitivity"="10"
+"MouseSpeed"="1"
+"MouseThreshold1"="6"
+"MouseThreshold2"="10"
+"SnapToDefaultButton"="0"
+"SwapMouseButtons"="0"
+
+[Control Panel\\Sound] 1792848112
+#time=1dd63baa226be44
+"Beep"="Yes"
+
+[Environment] 1792848113
+#time=1dd63baa2a179fe
+"TEMP"="C:\\users\\prospero\\AppData\\Local\\Temp"
+"TMP"="C:\\users\\prospero\\AppData\\Local\\Temp"
+
+[Keyboard Layout\\Preload] 1792887733
+#time=1dd6416e1ea5192
+"1"="00000409"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1792848113
+#time=1dd63baa2a0f042
+"Administrative Tools"="C:\\users\\prospero\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools"
+"AppData"="C:\\users\\prospero\\AppData\\Roaming"
+"Cache"="C:\\users\\prospero\\AppData\\Local\\Microsoft\\Windows\\INetCache"
+"Cookies"="C:\\users\\prospero\\AppData\\Local\\Microsoft\\Windows\\INetCookies"
+"Desktop"="C:\\users\\prospero\\Desktop"
+"Favorites"="C:\\users\\prospero\\Favorites"
+"Fonts"="C:\\windows\\Fonts"
+"History"="C:\\users\\prospero\\AppData\\Local\\Microsoft\\Windows\\History"
+"Local AppData"="C:\\users\\prospero\\AppData\\Local"
+"My Music"="C:\\users\\prospero\\Music"
+"My Pictures"="C:\\users\\prospero\\Pictures"
+"My Videos"="C:\\users\\prospero\\Videos"
+"NetHood"="C:\\users\\prospero\\AppData\\Roaming\\Microsoft\\Windows\\Network Shortcuts"
+"Personal"="C:\\users\\prospero\\Documents"
+"PrintHood"="C:\\users\\prospero\\AppData\\Roaming\\Microsoft\\Windows\\Printer Shortcuts"
+"Programs"="C:\\users\\prospero\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs"
+"Recent"="C:\\users\\prospero\\AppData\\Roaming\\Microsoft\\Windows\\Recent"
+"SendTo"="C:\\users\\prospero\\AppData\\Roaming\\Microsoft\\Windows\\SendTo"
+"Start Menu"="C:\\users\\prospero\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+"StartUp"="C:\\users\\prospero\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp"
+"Templates"="C:\\users\\prospero\\AppData\\Roaming\\Microsoft\\Windows\\Templates"
+"{374DE290-123F-4565-9164-39C4925E467B}"="C:\\users\\prospero\\Downloads"
+"{4C5C32FF-BB9D-43B0-B5B4-2D72E54EAAA4}"="C:\\users\\prospero\\Saved Games"
+"{56784854-C6CB-462B-8169-88E350ACB882}"="C:\\users\\prospero\\Contacts"
+"{7D1D3A04-DEBB-4115-95CF-2F29DA2920DA}"="C:\\users\\prospero\\Searches"
+"{A520A1A4-1780-4FF6-BD18-167343C5AF16}"="C:\\users\\prospero\\AppData\\LocalLow"
+"{BFB9D5E0-C6A9-404C-B2B2-AE6DB6AF4968}"="C:\\users\\prospero\\Links"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders] 1792848113
+#time=1dd63baa2a0ef5c
+"Administrative Tools"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools"
+"AppData"=str(2):"%USERPROFILE%\\AppData\\Roaming"
+"Cache"=str(2):"%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\INetCache"
+"Cookies"=str(2):"%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\INetCookies"
+"Desktop"=str(2):"%USERPROFILE%\\Desktop"
+"Favorites"=str(2):"%USERPROFILE%\\Favorites"
+"Fonts"=str(2):"C:\\windows\\Fonts"
+"History"=str(2):"%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\History"
+"Local AppData"=str(2):"%USERPROFILE%\\AppData\\Local"
+"My Music"=str(2):"%USERPROFILE%\\Music"
+"My Pictures"=str(2):"%USERPROFILE%\\Pictures"
+"My Videos"=str(2):"%USERPROFILE%\\Videos"
+"NetHood"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Network Shortcuts"
+"Personal"=str(2):"%USERPROFILE%\\Documents"
+"PrintHood"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Printer Shortcuts"
+"Programs"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs"
+"Recent"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Recent"
+"SendTo"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\SendTo"
+"Start Menu"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+"StartUp"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp"
+"Templates"=str(2):"%USERPROFILE%\\AppData\\Roaming\\Microsoft\\Windows\\Templates"
+"{374DE290-123F-4565-9164-39C4925E467B}"=str(2):"%USERPROFILE%\\Downloads"
+"{4C5C32FF-BB9D-43B0-B5B4-2D72E54EAAA4}"=str(2):"%USERPROFILE%\\Saved Games"
+"{56784854-C6CB-462B-8169-88E350ACB882}"=str(2):"%USERPROFILE%\\Contacts"
+"{7D1D3A04-DEBB-4115-95CF-2F29DA2920DA}"=str(2):"%USERPROFILE%\\Searches"
+"{A520A1A4-1780-4FF6-BD18-167343C5AF16}"=str(2):"%USERPROFILE%\\AppData\\LocalLow"
+"{BFB9D5E0-C6A9-404C-B2B2-AE6DB6AF4968}"=str(2):"%USERPROFILE%\\Links"
+
+
+[Software\\Wine\\Drivers]
+"Audio"="ps5"
+
+
+[Software\\Eidos Montreal\\Shadow of the Tomb Raider] 1793359850
+#time=1dd68621df23fa2
+"ChannelFormat"=dword:00000000
+"EnableRazerChroma"=dword:00000000
+"FirstRun"=dword:00000000
+"SteamLanguage"=dword:00000000
+"TextLanguage"=dword:00000000
+"VOLanguage"=dword:00000000
+
+[Software\\Eidos Montreal\\Shadow of the Tomb Raider\\Graphics] 1793482323
+#time=1dd697f453c408a
+"AA"=dword:00000002
+"AAPrevious"=dword:00000002
+"AmbientOcclusionQuality"=dword:00000001
+"AnselCaptureLatency"=dword:00000001
+"AnselCaptureSettle"=dword:00000000
+"AspectRatio"=dword:00000000
+"AsyncCompute"=dword:00000000
+"Bloom"=dword:00000001
+"CAS"=dword:00000000
+"CheckerBoard"=dword:00000000
+"DefaultMaxNitsSet"=dword:00000000
+"DLSS"=dword:00000000
+"DLSS Previous"=dword:00000003
+"DOFQuality"=dword:00000001
+"EnableDX12"=dword:00000001
+"ExclusiveFullscreen"=dword:00000000
+"ForceAnsel"=dword:00000000
+"ForceHalfRefreshRate"=dword:00000000
+"FOVCorrection"=dword:000003e8
+"Fullscreen"=dword:00000001
+"FullscreenHeight"=dword:000005a0
+"FullscreenWidth"=dword:00000a00
+"HDR"=dword:00000000
+"HDRContrast"=dword:3f800000
+"HDRScale"=dword:000003e8
+"HighPrecisionRT"=dword:00000001
+"IsBezelCorrected"=dword:00000000
+"LensFlares"=dword:00000001
+"LevelOfDetail"=dword:00000002
+"MaxMultiGPUCount"=dword:00000004
+"Monitor"=dword:00000000
+"MotionBlur"=dword:00000001
+"MultiMonitorEnabled"=dword:00000000
+"NormalizedGammaDecodingPower"=dword:000001f4
+"RayTracing"=dword:00000000
+"RefreshRate"=dword:0000003c
+"ResolutionModifier"=dword:000003e8
+"RTDenoiseMethod"=dword:00000000
+"ScreenEffects"=dword:00000001
+"ScreenSpaceContactShadows"=dword:00000000
+"ScreenSpaceReflections"=dword:00000001
+"ShadowQuality"=dword:00000002
+"SpecularReflectionQuality"=dword:00000000
+"StereoNearSeparationMultiplier"=dword:0000015e
+"StereoPopOut"=dword:00001388
+"Stereoscopic3DMode"=dword:00000000
+"StereoSeparation"=dword:00000016
+"Tessellation"=dword:00000001
+"TextureFiltering"=dword:00000002
+"TextureQuality"=dword:00000002
+"TressFX"=dword:00000001
+"UserWindowHeight"=dword:00000438
+"UserWindowWidth"=dword:00000780
+"VolumetricLighting"=dword:00000001
+"VSync"=dword:00000000
+"WindowHeight"=dword:00000438
+"WindowLeft"=dword:00000140
+"WindowMaximized"=dword:00000000
+"WindowTop"=dword:000000b4
+"WindowWidth"=dword:00000780
+"XESS"=dword:00000000
+"XESS Previous"=dword:00000000

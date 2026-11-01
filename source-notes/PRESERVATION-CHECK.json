@@ -1,0 +1,34 @@
+{
+  "protected": {
+    "foundation": {
+      "files_checked": 3598,
+      "changed_files": 0
+    },
+    "lapy": {
+      "files_checked": 183,
+      "changed_files": 0
+    },
+    "ps5log-real": {
+      "files_checked": 4,
+      "changed_files": 0
+    },
+    "GETSU SOTF": {
+      "files_checked": 4909,
+      "changed_files": 0
+    }
+  },
+  "existing_raider_files": 3403,
+  "changed_existing_raider_files": [
+    "SOURCES.txt",
+    "THIRD_PARTY.md",
+    "sce_sys/param.json"
+  ],
+  "added_raider_files": [
+    "eboot.bin",
+    "lapy-build-provenance.json",
+    "lapy-manifest.json",
+    "lapy.elf"
+  ],
+  "wine_radv_prefix_unchanged": true,
+  "ps5_accessed": false
+}

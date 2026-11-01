@@ -1,0 +1,57 @@
+Source for the GETSU RAIDER app folder (title PPSA99606). THIRD_PARTY.md says
+what each part is and its licence.
+
+GETSU RAIDER modifications (our changes; full corresponding source in the
+future companion archive GETSU-RAIDER-PPSA99606-source, see BUILDING-GETSU-RAIDER.md):
+  - the GETSU front-end in eboot.bin  native/getsu_landing.{c,h},
+    native/pw_getsu_front.{c,h}, wired into native/wine64_main.c
+    (also: the app0 sandbox is looked up at run time, resolve_sandbox_app0,
+    instead of the fixed <title>_000, so a reinstalled tile still finds its runtime)
+  - win/wine/lib/wine/x86_64-unix/ntdll.prx  our lazy-commit + page-file build
+    SHA-256 5af1a1d52937e52984acb59ce5dcf6a0696f0829d241915704ae64646241cade
+    (source: wine/ps5/pw_wine_dmem*.c and the Wine patches 0986, 0995, 0996
+    and 0997 in wine/patches/ of the companion)
+  - win/wine/lib/wine/x86_64-unix/libvulkan.prx  RADV + budget-headroom patch
+    SHA-256 72e1ba85ca03c07bb32cf2dfd62eee83db1e611e699265b233ead62f675830f1
+    (source: patches/radv/0001-radv-ps5-budget-headroom.patch in the companion)
+
+The upstream parts the modifications build on:
+
+prospero-win  https://github.com/mpereiraesaa/prospero-win  commit 404cac6ebbb236d2486d2796fd28b9bd39f2caa6
+Wine  https://gitlab.winehq.org/wine/wine  commit 490f6d5dcbb2a5047345b8af88d114bbcaad69a8,
+  with the 104 patches in the companion's wine/patches: prospero-win's 100
+  plus our 4 (0986 host-page, 0995 lazy commit, 0996 futex queue lock,
+  0997 prefault kernel read buffers)
+PS5 Native App Boilerplate  https://github.com/mpereiraesaa/ps5-native-app-boilerplate
+  title: commit 9c0b994a048521af6fb84c73ded364504fe250e9
+  PS5 module tools: commit 30597512539e7edfde079cbcaf4a626bc0a948c5
+PS5 payload SDK  https://github.com/ps5-payload-dev/sdk  the release the boilerplate pins
+FreeType 2.13.3  https://download.savannah.gnu.org/releases/freetype/freetype-2.13.3.tar.xz
+  SHA-256 0550350666d427c74daeb85d5ac7bb353acba5f76956395995311a9c6f063289
+Lapy JB Daemon (lapy.elf)  https://github.com/mpereiraesaa/PS5-Lapy-JB-Daemon  commit b48b7d7236eca25c7b9dfd6c040c763ae05dde80
+  built locally for title PPSA99606 with its tools/build_owned_daemon.py
+  (not the project's prebuilt release asset); lapy.elf
+  SHA-256 78d0bcbda0ef5f59af90fb432d4d23c07622e1a8e73aa99f524da698d971b543
+RADV (libvulkan.prx)  https://github.com/mpereiraesaa/PS5_Mesa  commit 01d70579b8d410d6a482e36c6f184798ae4c83ad
+  linked by https://github.com/mpereiraesaa/PS5_Vulkan  commit 27f6d6174891abf027ecb41cf44dfa91720ad215
+  with the payload SDK and platform layer  https://github.com/mihawk-99/PS5_PayloadSDK  commit b83202be73e930050e00de0f1b4d9ec46c0391bf
+GnuTLS 3.8.13 (libgnutls.prx)  https://www.gnupg.org/ftp/gcrypt/gnutls/v3.8/gnutls-3.8.13.tar.xz
+  SHA-256 ffed8ec1bf09c2426d4f14aae377de4753b53e537d685e604e99a8b16ca9c97e
+nettle 3.10.2 (libgnutls.prx)  https://ftp.gnu.org/gnu/nettle/nettle-3.10.2.tar.gz
+  SHA-256 fe9ff51cb1f2abb5e65a6b8c10a92da0ab5ab6eaf26e7fc2b675c45f1fb519b5
+Root certificates (share/wine/ca-certificates.crt)  https://curl.se/ca/cacert-2026-10-20.pem
+  SHA-256 796f1389bfea13c0ed78f663b765baaff54a508e5483786bd6ece73c5e3e3cbe
+
+Mesa WGL/Zink (PE32 and PE64)  https://github.com/mpereiraesaa/PS5_Mesa
+  commit e4607ef697fe3df8d1ebc329bf1917d041843306
+llvm-mingw 20260922-ucrt archive SHA-256 bb7bb7654b33d5aa8712acb837c963b2e0c56352560c76105270a3268c665c21
+
+DXVK 2.6.2-prospero3 (win/prefix-seed/.../system32,syswow64: d3d11.dll, dxgi.dll, ...)
+  prospero-win's DXVK fork  https://github.com/mpereiraesaa/dxvk  tag v2.6.2-prospero3
+  release archive dxvk-2.6.2-prospero3.tar.gz
+  SHA-256 e1596b4fd763c5f770634b133f798b5ef7df235cfbbbabc245050b4cca514d6b
+vkd3d-proton 3.0.1 (win/prefix-seed/.../d3d12.dll, d3d12core.dll)
+  https://github.com/HansKristian-Work/vkd3d-proton  release v3.0.1
+  release archive vkd3d-proton-3.0.1.tar.zst
+  SHA-256 3cf2315522af5e43605ef6d3c41dad91387040bf97199934f3f7ab76caaa2f0c
+The DLLs in the prefix seed are byte-identical to those release archives.

@@ -1,0 +1,108 @@
+{
+  "mesa_commit": "e4607ef697fe3df8d1ebc329bf1917d041843306",
+  "mesa_version": "26.2.0",
+  "llvm_mingw": "20260922-ucrt",
+  "llvm_mingw_archive_sha256": "bb7bb7654b33d5aa8712acb837c963b2e0c56352560c76105270a3268c665c21",
+  "build_script_sha256": "ae1ae2e3d9afe16c5b62d2456d1e3297ae0f1f78c5cd4647e54c4db26cef23a5",
+  "driver": "zink",
+  "architectures": [
+    "i386-windows",
+    "x86_64-windows"
+  ],
+  "console_validated": false,
+  "files": {
+    "i386-windows/libgallium_wgl.dll": {
+      "sha256": "c53de843648e8aedacc17280e3955cbe8d75eda54b689f7e6f238e0f0cded85e",
+      "machine": 332,
+      "imports": [
+        "api-ms-win-core-synch-l1-2-0.dll",
+        "KERNEL32.dll",
+        "USER32.dll",
+        "GDI32.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-private-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll"
+      ]
+    },
+    "i386-windows/opengl32.dll": {
+      "sha256": "b12519034d0bf90bca2f79d2f2ef6e759f5a9102e79b5c03b4fe8652dff23243",
+      "machine": 332,
+      "imports": [
+        "libgallium_wgl.dll",
+        "api-ms-win-core-synch-l1-2-0.dll",
+        "GDI32.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "KERNEL32.dll",
+        "api-ms-win-crt-private-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll"
+      ]
+    },
+    "x86_64-windows/libgallium_wgl.dll": {
+      "sha256": "6c836f90aeec07c3e0c930f0defecb79c8c4f6d7b054db7b03af13c53e185e7c",
+      "machine": 34404,
+      "imports": [
+        "api-ms-win-core-synch-l1-2-0.dll",
+        "KERNEL32.dll",
+        "USER32.dll",
+        "GDI32.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-private-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll"
+      ]
+    },
+    "x86_64-windows/opengl32.dll": {
+      "sha256": "64f8031644a405c01a26245e075c85661cab721a74664a6f6bb502b575a57338",
+      "machine": 34404,
+      "imports": [
+        "libgallium_wgl.dll",
+        "api-ms-win-core-synch-l1-2-0.dll",
+        "GDI32.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "KERNEL32.dll",
+        "api-ms-win-crt-private-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll"
+      ]
+    }
+  },
+  "raw_dll_sha256": {
+    "build-i686/src/gallium/targets/libgl-gdi/opengl32.dll": "f6cd0501a441279204701a5881305cd5b2b2274c5e2e0fd62220a99ac6582adc",
+    "build-i686/src/gallium/targets/wgl/libgallium_wgl.dll": "e1c068bd0de192f638e18f7d91e8c37d17c1d220b0ac96bae16b3d76e9c18ea8",
+    "build-x86_64/src/gallium/targets/libgl-gdi/opengl32.dll": "21b07ffdedb0201329dfb2ac9df75122c12064b130dd51e33d04c27255407c4a",
+    "build-x86_64/src/gallium/targets/wgl/libgallium_wgl.dll": "3ba7a910d6db84006b7a157e5ffa9029324579c6e9ea88dda7bb6dbaaf0834f8"
+  },
+  "license_sha256": {
+    "LICENSES/llvm-mingw/LICENSE.TXT": "8d85c1057d742e597985c7d4e6320b015a9139385cff4cbae06ffc0ebe89afee",
+    "LICENSES/llvm-mingw/mingw32/COPYING": "99a69660981156c21336fdb5661f89341b013c94e4bf9e1c7467b4745718397f",
+    "LICENSES/llvm-mingw/mingw32/COPYING.MinGW-w64-runtime.txt": "1db8da07b436c68833c0673ffee3d9fcb2526047f3820b81661865dfedc79a1f",
+    "LICENSES/llvm-mingw/mingw32/COPYING.MinGW-w64.txt": "f38e6194bd3bfa1b654f118e5acefe0aead437bbe669eee43957ccc65a7127f1",
+    "LICENSES/llvm-mingw/mingw32/COPYING.winpthreads.txt": "63263614cdd29f2f93cba85e992f041b31f9fc7b4033692f31269489a8a1b177",
+    "LICENSES/llvm-mingw/mingw32/COPYING.winstorecompat.txt": "fa7368d1f93d890c173177475d8ec7aff265a7d08f1f364d66f74d138978ce36",
+    "LICENSES/mesa/license.rst": "0d1a0472ecc81830e75c20d59b0ea02841e3db21255e0ebad97ab682c54d6615",
+    "LICENSES/mesa/licenses/Apache-2.0": "7e4d3fba250d15e9e0afa380d4b611828fa2560cc8fdebe95bcf2f01a487de12",
+    "LICENSES/mesa/licenses/BSL-1.0": "9b9fea7520a816107fcac2598b7c0155222f16bc430e989706b22f4367f1df7d",
+    "LICENSES/mesa/licenses/GPL-1.0-or-later": "8ff76f1528e6e4e9400c0f6b1f2d19d4979aaac3bcc44bb707a55389132825c4",
+    "LICENSES/mesa/licenses/GPL-2.0-only": "6667ad4063569cd53b13500550d93fcd3dc11bcf82c5514296af013a0b720ba5",
+    "LICENSES/mesa/licenses/MIT": "323c587d0ccf10e376f8bf9a7f31fb4ca6078105194b42e0b1e0ee2bc9bde71f",
+    "LICENSES/mesa/licenses/SGI-B-2.0": "686bf035a1fd22076416fd3b90370ac67771e884bf57f55693d51f8ce7c710a7",
+    "LICENSES/mesa/licenses/exceptions/Linux-Syscall-Note": "9b4084655174654608fd037e9ddb4feeadfada01cd042e9c17b05aa7105b2b9f",
+    "LICENSES/mesa/source-notices.txt": "aa5952ccf9d4cd3e9cfc0470d99db8185bbf80711f7fcbdd605d612d3d10d03a"
+  }
+}
